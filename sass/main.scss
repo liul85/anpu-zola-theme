@@ -13,7 +13,7 @@ body {
     margin: 0;
     background: #ffffff;
     color: #333;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
@@ -173,8 +173,7 @@ header {
 }
 
 header h1 {
-    font-size: 1em;
-    margin-top: 1em;
+    font-size: 1.5em;
     margin-bottom: 0;
     font-weight: normal;
 }
@@ -222,7 +221,7 @@ main h1 {
 
 article:not(:last-of-type) {
     border-bottom: thin solid #f1f1f1;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 article header h1 {
@@ -360,6 +359,10 @@ footer {
     border-top: thin solid #f1f1f1;
     margin-top: 3em;
     font-size: 16px;
+}
+
+footer .copyright {
+    text-align: center;
 }
 
 ul.language-select {

@@ -50,9 +50,8 @@
             {% endblock content %}
         </main>
         <footer>
-            <p>
-                © {{ config.title }} {{ now() | date(format="%Y") }}<br>
-                Powered by <a target="_blank" href="https://getzola.org/">Zola</a>, Theme <a target="_blank" href="https://github.com/zbrox/anpu-zola-theme">Anpu</a>.
+            <p class="copyright">
+                © {{ config.title }} {{ now() | date(format="%Y") }} · Powered by <a target="_blank" href="https://getzola.org/">Zola</a>, Theme <a target="_blank" href="https://github.com/zbrox/anpu-zola-theme">Anpu</a>.
             </p>
             <p>
                 {% block footer %}
